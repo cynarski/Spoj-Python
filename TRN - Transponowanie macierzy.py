@@ -8,10 +8,7 @@ def matrix(row: int,col: int):
 
         print()
 
-
-
 dane = input().split(' ')
 row = int(dane[0])
 col = int(dane[1])
 matrix(row,col)
-

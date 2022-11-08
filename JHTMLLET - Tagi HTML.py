@@ -4,7 +4,7 @@ def tagi_HTML(word: str):
     to_fix = list(map(str,word))
     for i in range(0, len(to_fix)):
         if(to_fix[i] == '<'):
-            tag = True 
+            tag = True
         elif(to_fix[i] == '>'):
             tag = False
         if(tag):
